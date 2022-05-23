@@ -1,7 +1,7 @@
 /**
- * @returns the example promise
+ * @returns a promise that resolves to true 
  */
-function createExamplePromise(): Promise<boolean> {
+export function createExamplePromise(): Promise<boolean> {
   return new Promise((resolve, _reject) => {
     resolve(true);
   });
